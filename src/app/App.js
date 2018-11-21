@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import Signin from './Components/Signin';
 
 class App extends Component{
     render() {
         return(
-            <h1>Autenticando</h1>
+            <div>
+                <Signin />
+            </div>
         );
     }
 }

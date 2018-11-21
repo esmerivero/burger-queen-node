@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 import App from './App';
+import Menu from './Components/Menu';
 
-render(<App/>,document.getElementById('app'));
+ReactDOM.render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div>
+            <Route exact path = '/' component = { App } />
+            <Route exact path = '/menu' component = { Menu } />
+        </div>
+</BrowserRouter>, document.getElementById('app'));
