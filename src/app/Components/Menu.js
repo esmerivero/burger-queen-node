@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
-// import SectionMenu from './SectionMenu';
-// import SectionOrder from './SectionOrder';
+import SectionMenu from './SectionMenu';
+import SectionOrder from './SectionOrder';
 // import './Menu.css'
 
 export default class Menu extends Component{
@@ -25,10 +25,10 @@ export default class Menu extends Component{
         return(
             <div className="container">
             <Navbar />
-                {/* <div className="content row">
+                <div className="content row">
                     <SectionMenu breakfasMenu={this.state.breakfast} mealMenu={this.state.meal} getOrder={this.handleGetOrder}/>
                     <SectionOrder order={this.state.order}/>
-                </div> */}
+                </div>
             </div>
         );
     }

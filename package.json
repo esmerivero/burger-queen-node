@@ -13,11 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^1.0.1",
     "express": "^4.16.4",
     "file-loader": "^2.0.0",
     "mongoose": "^5.3.11",
     "morgan": "^1.9.1",
     "react-router-dom": "^4.3.1",
+    "style-loader": "^0.23.1",
     "url-loader": "^1.1.2"
   },
   "devDependencies": {
