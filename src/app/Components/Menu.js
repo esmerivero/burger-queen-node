@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import SectionMenu from './SectionMenu';
 import SectionOrder from './SectionOrder';
-// import './Menu.css'
+import './Menu.css';
 
 export default class Menu extends Component{
     constructor(props){

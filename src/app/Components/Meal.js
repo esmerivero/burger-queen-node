@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './SectionMenu.css'
+import './SectionMenu.css';
 import Data from '../Menu.json';
 
 export default class Meal extends Component{

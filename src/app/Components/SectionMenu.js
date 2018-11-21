@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Breakfast from './Breakfast';
 import Meal from './Meal';
-// import './SectionMenu.css'
+import './SectionMenu.css';
 
 // manejar los props conditional render
 

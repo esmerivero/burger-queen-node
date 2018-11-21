@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import {ConfigFire} from '../firebase/Firebase';
-// import './Signin.css';
+import './Signin.css';
 import Logo from '../assets/bq-logo.png';
 import { withRouter } from 'react-router-dom';
 
@@ -46,8 +46,8 @@ class Signin extends Component{
         return(
             <section className="container">
 
-                <div className="row logo">
-                    <img src={Logo} alt="Logotipo de burger queen" width="20%" height="auto" /> 
+                <div className="row">
+                    <img src={Logo} className="logo" alt="Logotipo de burger queen"/> 
                 </div>
 
                 <div className="row contenido">

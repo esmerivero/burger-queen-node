@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './SectionOrder.css';
+import './SectionOrder.css';
 import ButtonSendOrder from './ButtonSendOrder';
 
 export default class SectionOrder extends Component{

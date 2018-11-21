@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../assets/bq-logo.png';
-// import './Navbar.css';
+import './Navbar.css';
 import ButtonLogout from './ButtonLogout';
 
 export default class Navbar extends Component{
